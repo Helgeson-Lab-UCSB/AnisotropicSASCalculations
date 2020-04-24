@@ -1,5 +1,4 @@
-function [I,c] = paralellepipedscatteringcalculatorfromopdf...
-    (Qx,Qy,Qz,Y,nangle,ngamma,a,b,c,volfrac,dsld,bkgd)
+function [I,c] = paralellepipedscatteringcalculatorfromopdf(Qx,Qy,Qz,Y,nangle,ngamma,a,b,c,volfrac,dsld,bkgd)
 %%Function solves for scattering from dilute oriented paralellepipeds
 %Run this after generating orientation distribution (Y)
 %INPUTS

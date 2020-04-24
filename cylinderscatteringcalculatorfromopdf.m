@@ -1,5 +1,4 @@
-function [I,c] = cylinderscatteringcalculatorfromopdf...
-    (Qx,Qy,Qz,Y,nangle,R,L,volfrac,dsld,bkgd)
+function [I,c] = cylinderscatteringcalculatorfromopdf(Qx,Qy,Qz,Y,nangle,R,L,volfrac,dsld,bkgd)
 %%Program solves for scattering from dilute cylinders oriented in a flow
 %Run this after generating orientation distribution (Y)
 %INPUTS
